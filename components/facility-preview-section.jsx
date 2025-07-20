@@ -13,7 +13,7 @@ const fadeInAnimation = {
 }
 
 export default function FacilityPreviewSection() {
-  const previewImage = "/placeholder.svg?height=600&width=1200"
+  const previewImage = "/gym-360.jpg"
 
   return (
     <motion.section id="preview" className="py-16 md:py-24 bg-slate-900" {...fadeInAnimation}>

@@ -9,7 +9,8 @@ export default function HeroSection() {
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[url('/placeholder.svg?height=800&width=1200')] bg-repeat opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/3d-gym-equipment.jpg')] bg-cover bg-center opacity-20"></div>
+
       </div>
 
       {/* Navigation */}

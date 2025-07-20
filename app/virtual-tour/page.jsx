@@ -11,23 +11,23 @@ import Link from "next/link"
 
 const gymAreas = [
   {
-    src: "/placeholder.svg?height=600&width=1200",
-    thumb: "/placeholder.svg?height=120&width=200",
+    src: "/gym-360.jpg",
+    thumb: "/gym-360.jpg",
     caption: "Strength Training Zone",
   },
   {
-    src: "/placeholder.svg?height=600&width=1200",
-    thumb: "/placeholder.svg?height=120&width=200",
+    src: "/gym-360.jpg",
+    thumb: "/gym-360.jpg",
     caption: "Cardio & Conditioning",
   },
   {
-    src: "/placeholder.svg?height=600&width=1200",
-    thumb: "/placeholder.svg?height=120&width=200",
+    src: "/gym-360.jpg",
+    thumb: "/gym-360.jpg",
     caption: "Group Fitness Studio",
   },
   {
-    src: "/placeholder.svg?height=600&width=1200",
-    thumb: "/placeholder.svg?height=120&width=200",
+    src: "/gym-360.jpg",
+    thumb: "/gym-360.jpg",
     caption: "Aquatic & Recovery Center",
   },
 ]

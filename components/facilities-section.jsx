@@ -10,7 +10,7 @@ const facilities = [
     id: 1,
     title: "Downtown Flagship",
     location: "Financial District",
-    imageUrl: "/placeholder.svg?height=300&width=400",
+    imageUrl: "/gym.jpg",
     description:
       "Our premier location featuring Olympic lifting platforms, premium cardio equipment, and executive locker rooms.",
   },
@@ -18,7 +18,7 @@ const facilities = [
     id: 2,
     title: "Westside Performance Center",
     location: "Beverly Hills",
-    imageUrl: "/placeholder.svg?height=300&width=400",
+    imageUrl: "/gym.jpg",
     description:
       "Complete wellness destination with aquatic center, spa services, and specialized athletic performance training.",
   },
@@ -26,7 +26,7 @@ const facilities = [
     id: 3,
     title: "Northpoint Elite",
     location: "Uptown District",
-    imageUrl: "/placeholder.svg?height=300&width=400",
+    imageUrl: "/gym.jpg",
     description:
       "Boutique-style facility specializing in group fitness, yoga studios, and personalized training programs.",
   },

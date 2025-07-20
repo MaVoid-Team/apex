@@ -31,7 +31,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center mb-16">
           <motion.div {...fadeInAnimation} transition={{ duration: 0.6, delay: 0.2 }}>
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/3d-gym-equipment.jpg"
               alt="APEX Fitness Interior"
               width={600}
               height={400}

@@ -12,22 +12,20 @@ const fadeInAnimation = {
   transition: { duration: 0.6 },
 }
 
-export default function FacilityPreviewSection() {
+const FacilityPreviewSection = () => {
   const previewImage = "/gym-360.jpg"
-
   return (
-    <motion.section id="preview" className="py-16 md:py-24 bg-slate-900" {...fadeInAnimation}>
+    <motion.section id="preview" className="py-16 md:py-24 bg-foreground" {...fadeInAnimation}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Experience Our Flagship Facility</h2>
-          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-background mb-4">Experience Our Flagship Facility</h2>
+          <p className="text-lg text-muted max-w-2xl mx-auto">
             Take a virtual tour of our premium training environment with state-of-the-art equipment and luxury
             amenities.
           </p>
         </div>
-
         <motion.div
-          className="relative aspect-video max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl border-4 border-orange-500 group"
+          className="relative aspect-video max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl border-4 border-primary group"
           {...fadeInAnimation}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
@@ -57,7 +55,7 @@ export default function FacilityPreviewSection() {
             />
           )}
           <div className="absolute bottom-4 right-4 z-10">
-            <Button asChild size="lg" className="bg-orange-500 text-white hover:bg-orange-600">
+            <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
               <Link href="/virtual-tour">
                 <ExternalLink className="h-5 w-5 mr-2" />
                 Launch Full Tour
@@ -65,9 +63,8 @@ export default function FacilityPreviewSection() {
             </Button>
           </div>
         </motion.div>
-
         <div className="text-center mt-8">
-          <p className="text-slate-300">
+          <p className="text-muted">
             Explore our facility in 360°. Click "Launch Full Tour" for the complete immersive experience.
           </p>
         </div>
@@ -75,3 +72,5 @@ export default function FacilityPreviewSection() {
     </motion.section>
   )
 }
+
+export default FacilityPreviewSection

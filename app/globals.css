@@ -4,66 +4,77 @@
 
 @layer base {
   :root {
-    --background: 36 50% 96.7%; /* Almond Cream #F6F1EB */
-    --foreground: 25 14.8% 26.5%; /* Espresso Brown #4A3F35 */
-
-    --card: 30 27.8% 82%; /* Lighter Warm Taupe (closer to #DBCABF) for cards to stand out on Almond Cream or Warm Taupe sections */
-    --card-foreground: 25 14.8% 26.5%; /* Espresso Brown */
-
-    --popover: 36 50% 96.7%; /* Almond Cream */
-    --popover-foreground: 25 14.8% 26.5%; /* Espresso Brown */
-
-    --primary: 20 44.4% 44.1%; /* Burnt Sienna #A25C3F */
-    --primary-foreground: 36 50% 96.7%; /* Almond Cream */
-
-    --secondary: 30 27.8% 76.7%; /* Warm Taupe #D6C3B1 */
-    --secondary-foreground: 25 14.8% 26.5%; /* Espresso Brown */
-
-    --muted: 26 20.5% 63.1%; /* Clay Beige #B89F8C */
-    --muted-foreground: 25 14.8% 40%; /* Slightly lighter Espresso Brown for better readability on Clay Beige */
-
-    --accent: 75 12.6% 53.7%; /* Sage Olive #9A9A7D */
-    --accent-foreground: 36 50% 96.7%; /* Almond Cream */
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%; /* Light text for destructive */
-
-    --border: 30 27.8% 70%; /* Slightly darker Warm Taupe for borders #C7B6A5 */
-    --input: 30 27.8% 85%; /* Lighter Warm Taupe for input backgrounds #E0D2C3 */
-    --ring: 20 44.4% 44.1%; /* Burnt Sienna for focus rings */
-
-    --radius: 0.5rem;
+    /* Modern Gym Color Palette */
+    --background: 0 0% 98%; /* Clean White #FAFAFA */
+    --foreground: 220 13% 18%; /* Charcoal Gray #2D3748 */
+    
+    --card: 0 0% 100%; /* Pure White for cards */
+    --card-foreground: 220 13% 18%; /* Charcoal Gray */
+    
+    --popover: 0 0% 100%; /* Pure White */
+    --popover-foreground: 220 13% 18%; /* Charcoal Gray */
+    
+    --primary: 14 100% 57%; /* Energetic Orange #FF4500 */
+    --primary-foreground: 0 0% 100%; /* White text on primary */
+    
+    --secondary: 220 13% 91%; /* Light Gray #E2E8F0 */
+    --secondary-foreground: 220 13% 18%; /* Charcoal Gray */
+    
+    --muted: 220 13% 91%; /* Light Gray #E2E8F0 */
+    --muted-foreground: 220 9% 46%; /* Medium Gray #64748B */
+    
+    --accent: 195 100% 50%; /* Electric Blue #00BFFF */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
+    
+    --destructive: 0 84% 60%; /* Red for errors */
+    --destructive-foreground: 0 0% 98%; /* Light text */
+    
+    --border: 220 13% 91%; /* Light Gray for borders #E2E8F0 */
+    --input: 220 13% 95%; /* Very Light Gray for inputs #F1F5F9 */
+    --ring: 14 100% 57%; /* Orange for focus rings */
+    
+    --radius: 0.75rem; /* Slightly more rounded for modern feel */
+    
+    /* Custom gym-specific colors */
+    --success: 142 76% 36%; /* Green for success states #16A34A */
+    --warning: 38 92% 50%; /* Amber for warnings #F59E0B */
+    --info: 217 91% 60%; /* Blue for info #3B82F6 */
   }
 
   .dark {
-    /* Basic dark mode, can be expanded */
-    --background: 25 14.8% 20.5%; /* Dark Espresso Brown #362F28 */
-    --foreground: 36 50% 90.7%; /* Lighter Almond Cream #EDE6DD */
-
-    --card: 25 14.8% 26.5%; /* Espresso Brown #4A3F35 */
-    --card-foreground: 36 50% 90.7%; /* Lighter Almond Cream */
-
-    --popover: 25 14.8% 20.5%;
-    --popover-foreground: 36 50% 90.7%;
-
-    --primary: 20 44.4% 50.1%; /* Slightly lighter Burnt Sienna #B16B4F */
-    --primary-foreground: 25 14.8% 16.5%; /* Darker Espresso for text on primary */
-
-    --secondary: 26 20.5% 33.1%; /* Darker Clay Beige #6F5C50 */
-    --secondary-foreground: 36 50% 90.7%;
-
-    --muted: 26 20.5% 33.1%;
-    --muted-foreground: 30 27.8% 66.7%; /* Lighter Warm Taupe #BFAE9D */
-
-    --accent: 75 12.6% 43.7%; /* Darker Sage Olive #8A8A6D */
-    --accent-foreground: 36 50% 90.7%;
-
-    --destructive: 0 62.8% 50.6%;
-    --destructive-foreground: 0 0% 98%;
-
-    --border: 26 20.5% 33.1%;
-    --input: 26 20.5% 33.1%;
-    --ring: 20 44.4% 50.1%;
+    /* Dark mode for modern gym aesthetic */
+    --background: 222 84% 5%; /* Deep Dark Blue-Gray #0F172A */
+    --foreground: 210 40% 98%; /* Off-White #F8FAFC */
+    
+    --card: 222 84% 5%; /* Deep Dark Blue-Gray */
+    --card-foreground: 210 40% 98%; /* Off-White */
+    
+    --popover: 222 84% 5%; /* Deep Dark Blue-Gray */
+    --popover-foreground: 210 40% 98%; /* Off-White */
+    
+    --primary: 14 100% 57%; /* Same Energetic Orange */
+    --primary-foreground: 0 0% 100%; /* White text */
+    
+    --secondary: 217 32% 17%; /* Dark Blue-Gray #1E293B */
+    --secondary-foreground: 210 40% 98%; /* Off-White */
+    
+    --muted: 217 32% 17%; /* Dark Blue-Gray */
+    --muted-foreground: 215 20% 65%; /* Light Blue-Gray #94A3B8 */
+    
+    --accent: 195 100% 50%; /* Same Electric Blue */
+    --accent-foreground: 222 84% 5%; /* Dark background for contrast */
+    
+    --destructive: 0 63% 31%; /* Darker red for dark mode */
+    --destructive-foreground: 210 40% 98%; /* Off-White */
+    
+    --border: 217 32% 17%; /* Dark Blue-Gray for borders */
+    --input: 217 32% 17%; /* Dark Blue-Gray for inputs */
+    --ring: 14 100% 57%; /* Orange for focus rings */
+    
+    /* Dark mode custom colors */
+    --success: 142 76% 36%; /* Green remains same */
+    --warning: 38 92% 50%; /* Amber remains same */
+    --info: 217 91% 60%; /* Blue remains same */
   }
 }
 
@@ -71,11 +82,58 @@
   * {
     @apply border-border;
   }
+  
   body {
     @apply bg-background text-foreground;
-    font-family: sans-serif; /* Basic font, consider adding a custom font */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
   }
+  
   html {
     @apply scroll-smooth;
+  }
+  
+  /* Custom utility classes for gym-specific colors */
+  .text-success {
+    color: hsl(var(--success));
+  }
+  
+  .text-warning {
+    color: hsl(var(--warning));
+  }
+  
+  .text-info {
+    color: hsl(var(--info));
+  }
+  
+  .bg-success {
+    background-color: hsl(var(--success));
+  }
+  
+  .bg-warning {
+    background-color: hsl(var(--warning));
+  }
+  
+  .bg-info {
+    background-color: hsl(var(--info));
+  }
+}
+
+/* Additional modern gym styling */
+@layer components {
+  .gym-gradient {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  }
+  
+  .gym-card {
+    @apply bg-card border border-border rounded-lg shadow-sm;
+  }
+  
+  .gym-button-primary {
+    @apply bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-lg font-semibold transition-colors;
+  }
+  
+  .gym-button-secondary {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 px-6 py-3 rounded-lg font-semibold transition-colors;
   }
 }

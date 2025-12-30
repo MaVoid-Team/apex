@@ -6,8 +6,13 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  basePath: "/apex",
+  assetPrefix: "/apex/",
+
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './image-loader.js'
   },
   distDir: "build",
   output: "export",
